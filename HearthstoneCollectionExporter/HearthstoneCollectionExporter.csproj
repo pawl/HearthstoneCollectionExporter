@@ -33,8 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HearthMirror">
-      <HintPath>..\..\..\..\..\Desktop\HearthstoneCollectionExporter\HearthMirror.dll</HintPath>
+    <Reference Include="HearthMirror, Version=7.0.0.15590, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\HearthMirror.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
