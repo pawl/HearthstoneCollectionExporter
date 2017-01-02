@@ -1,0 +1,6 @@
+[submodule "HearthstoneCollectionExporter/lib/HearthMirror"]
+	path = HearthstoneCollectionExporter/lib/HearthMirror
+	url = https://github.com/HearthSim/HearthMirror.git
+[submodule "HearthstoneCollectionExporter/lib/HearthDb"]
+	path = HearthstoneCollectionExporter/lib/HearthDb
+	url = https://github.com/HearthSim/HearthDb.git
