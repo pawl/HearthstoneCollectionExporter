@@ -7,4 +7,6 @@ Exports your hearthstone collection to a CSV using HearthMirror
 1. Run HearthstoneCollectionExporter.exe, this should generate a file called cards.csv.
 
 # Credit
-Credit for HearthMirror.dll goes to: https://github.com/HearthSim/HearthMirror
+* HearthDb.dll: https://github.com/HearthSim/HearthDb
+* HearthMirror.dll: https://github.com/HearthSim/HearthMirror
+* Inpsiration for HearthDb and HearthMirror usage taken from: https://github.com/HearthSim/Hearthstone-Collection-Tracker
