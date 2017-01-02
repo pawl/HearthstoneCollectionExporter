@@ -1,5 +1,5 @@
 # HearthstoneCollectionExporter
-Exports your hearthstone collection to a CSV using HearthMirror
+Exports info about your hearthstone collection to a CSV using HearthMirror and HearthDb
 
 # Usage (requires Windows)
 1. Download the latest release.
