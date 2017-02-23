@@ -39,6 +39,7 @@ namespace HearthstoneCollectionExporter
                     csv.WriteField("Attack");
                     csv.WriteField("Card Count - Normal");
                     csv.WriteField("Card Count - Golden");
+                    csv.WriteField("Set");
                     csv.NextRecord();
 
                     foreach (var dbCard in Cards.Collectible)
@@ -69,6 +70,8 @@ namespace HearthstoneCollectionExporter
                             goldenCollection.Where(x => x.Id.Equals(dbCard.Key)).Select(x => x.Count).FirstOrDefault();
                         csv.WriteField(amountNormal);
                         csv.WriteField(amountGolden);
+
+                        csv.WriteField(dbCard.Value.Set);
 
                         csv.NextRecord();
                     }
